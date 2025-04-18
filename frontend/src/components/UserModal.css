@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      121deg,
+      rgb(31, 138, 160) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 48px;
+    min-width: 50%;
+    max-width: 100%;
+    min-height: 50%;
+    border-radius: 16px;
+    justify-content: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 16px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}

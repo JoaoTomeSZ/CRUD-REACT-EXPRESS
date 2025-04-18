@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #555555;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-container {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    121deg,
+    rgb(31, 138, 160) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 48px;
+  border-radius: 16px;
+  max-width: 100%;
+    width: auto;
+    min-width: 50%;
+    min-height: 40%;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px black;
+    color: #ffffff;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+}
+
+table th {
+  font-weight: bold;
+  color: rgb(7, 7, 51);
+}
+
+
+thead{
+  width: 100%;
+}
+
+.title-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.tab-title-buttons{
+  display: flex;
+  gap: 16px;
+
+}
+
+.tab-title-buttons button{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+th button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 12px;
+    
+}
+
+.update-button{
+    background-color: #236fc5;
+    color: #fefefe;
+}
+
+.open-create-button{
+    background-color: rgb(68, 240, 68);  
+}

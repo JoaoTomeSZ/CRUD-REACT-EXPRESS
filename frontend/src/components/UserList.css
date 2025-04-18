@@ -1,0 +1,52 @@
+.edit-button {
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+th {
+  font-weight: bold;
+}
+
+.button-td {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.buttons button{
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.edit-input {
+  padding: 10px;
+}
+
+.close-edit-btn {
+  background-color: rgb(150, 50, 50);
+  border: none;
+  border-radius: 8px;
+}
+
+.confirm-edit{
+  background-color: rgb(0, 255, 0);
+  border-radius: 8px;
+  border: none;
+}
+
+.delete-user{
+  border: none;
+  border-radius: 8px;
+}
